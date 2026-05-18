@@ -1,5 +1,12 @@
 grammar TravelBooking;
 
+@parser::members {
+    @Override
+    public void notifyErrorListeners(String msg) {
+        super.notifyErrorListeners(msg);
+    }
+}
+
 start : booking EOF ;
 
 booking
