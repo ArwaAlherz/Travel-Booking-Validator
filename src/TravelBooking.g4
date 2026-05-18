@@ -16,7 +16,7 @@ tripType : TRIPTYPE ;
 
 BOOK : 'BOOK' ;
 TO : 'TO' ;
-DATE : 'DATE' ;
+DATE : 'DATE'  ;
 CLASS : 'CLASS' ;
 PASSENGERS : 'PASSENGERS' ;
 PAYMENT : 'PAYMENT' ;
